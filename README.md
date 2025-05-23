@@ -5,7 +5,7 @@
 웹 브라우저에서 음성을 녹음하고 OpenAI Whisper로 텍스트로 변환하는 애플리케이션. FastAPI와 React 기반, ngrok으로 외부 접근 지원.
 
 ## 설치
-1. Python 3.11 이상.
+1. Python 3.8 이상.
 2. FFmpeg: `apt-get install -y ffmpeg`.
 3. ngrok 설치 및 인증 토큰 설정.
 
