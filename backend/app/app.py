@@ -27,7 +27,7 @@ app.mount("/static", StaticFiles(directory="./www/static"), name="static")
 templates = Jinja2Templates(directory="./www")
 
 # Whisper 모델 로드
-model = whisper.load_model("base")
+model = whisper.load_model("turbo")
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):

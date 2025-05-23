@@ -11,7 +11,7 @@ def setup_ngrok(auth_token):
     http_tunnel = ngrok.connect(3000)
     public_url = http_tunnel.public_url
     print(f"\n* ngrok 터널이 생성되었습니다: {public_url}")
-    print("* 이 URL을 통해 외부에서 채팅 애플리케이션에 접속할 수 있습니다.\n")
+    print("* 이 URL을 통해 외부에서 웹 애플리케이션에 접속할 수 있습니다.\n")
     
     return public_url
 
