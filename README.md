@@ -6,7 +6,13 @@
 
 ## 설치
 1. Python 3.8 이상.
-2. FFmpeg: `apt-get install -y ffmpeg`.
+2. 종속성:
+- FFmpeg: `apt-get install -y ffmpeg`.
+- fastapi: 백엔드 API 서버.
+- uvicorn: FastAPI 실행용 ASGI 서버.
+- openai-whisper: 음성 인식 및 텍스트 변환.
+- pyngrok: 로컬 서버 외부 공개.
+- python-multipart: 파일 업로드 처리.
 3. ngrok 설치 및 인증 토큰 설정.
 
 ## 실행
